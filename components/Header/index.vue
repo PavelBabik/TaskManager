@@ -1,12 +1,11 @@
 <template>
   <div class="header">
-    Task Manager
-    <HeaderUserlist/>
+    <div class="header__logo">Task Manager</div>
+    <HeaderUserlist />
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped lang="scss">
 .header {
@@ -17,6 +16,10 @@
   padding: 15px 25px;
   background-color: rgba(255, 255, 255, 0.6);
   box-sizing: border-box;
+  &__logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
 }
-
 </style>
